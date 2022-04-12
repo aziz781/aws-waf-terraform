@@ -8,7 +8,7 @@ provider "aws" {
 terraform {
     backend "s3" {
       encrypt = true
-      bucket = "azee781_s3_bucket_name"
+      bucket = "azee781-s3-bucket-name"
       dynamodb_table = "azee781_dynamo_table_name"
       key = "dev/terraform.tfstate"
       region = "eu-west-2"
