@@ -5,7 +5,7 @@ resource "aws_waf_regex_pattern_set" "AWS_Security_regex_pattern_set" {
   regex_pattern_strings = ["v1", "v2"]
 }
 
-resource "aws_waf_regex_match_set" "example" {
+resource "aws_waf_regex_match_set" "AWS_Security_regex_match_set" {
   name = "example"
 
   regex_match_tuple {
